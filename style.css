@@ -1,0 +1,181 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+html, body{
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+    font-family: 'Montserrat', sans-serif;
+
+}
+#main{
+    display: flex;
+    height: 100%;
+    width: 100%;
+}
+#logo{
+    position: absolute;
+    left: -20px;
+    top: -70px;
+    height: 300px;
+    width: 300px;
+    background-repeat: no-repeat;
+    /* background-color: red; */
+    /* background-image: url(https://www.highsnobiety.com/static-assets/thumbor/RLahXWkVEh9UcaOZx8VafLikizM=/1600x1067/www.highsnobiety.com/static-assets/wp-content/uploads/2012/08/06171644/replacement-logos-01.jpg); */
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQlttra4b9FhrWE5Jk0941jjtmb_YIozMhMqzYWjbjZ4T2NBOz-ER0PbOkvrN6K_PozUpY&usqp=CAU);
+}
+#left{
+    height: 100%;
+    width: 30%;
+    background-color: white;
+}
+#right{
+    height: 100%;
+    width: 70%;
+    background-color: black;
+}
+#navbar{
+    position: absolute;
+    left: 18%;
+
+    display: flex;
+    height: 50px;
+    width: 70%;
+    /* background-color: red; */
+    z-index: 99;
+    color: white;
+
+}
+.lul{
+    width: 70%;
+    padding: 0 45px;
+    
+}
+.rul{
+    width: 25%;
+    padding: 0 40px;
+}
+nav{
+    height: 60px;
+    width:100%;
+    display:flex;
+    flex-flow:row;
+    justify-content: space-evenly;
+    align-items: center;
+    
+}
+nav ul{
+    display: flex;
+    /* align-items: center; */
+    justify-content: space-evenly;
+}
+nav ul li{
+    display: flex;
+    align-items: center;
+    /* justify-content: space-evenly; */
+    list-style: none;
+}
+nav ul li a{
+    text-decoration: none;
+    color: white;
+
+}
+.hm{
+    color: black;
+    /* border-bottom: 2     px solid blue; */
+}
+#rtext{
+    position: relative;
+    top: 25%;
+    left: 27%;
+    height: 40%;
+    width: 45%;
+    color: white;
+    /* background-color: red; */
+}
+h1{
+    font-size: 50px;
+    font-weight: 1000;
+}
+button{
+    margin-top: 15px;
+    padding: 5px 23px;
+    border-radius: 50px;
+}
+
+#crl{
+    position: absolute;
+    left: 15%;
+    top: 18%;
+    height: 450px;
+    width: 450px;
+    background-color: rgb(221, 208, 32);
+    border-radius: 50%;
+    box-sizing: border-box;
+    /* overflow: hidden; */
+}
+img{
+    position: relative;
+    top: -5%;
+    left: -5%;
+    height: 450px;
+    width: 520px;
+    transform: rotate(10deg);
+    
+}
+#arrow{
+    display: flex;
+    position: absolute;
+    top: 50%;
+    /* background-color: red; */
+    height: 105px;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+}
+#aleft{
+    position: relative;
+    /* top: 20%; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* transform: translate(-50%, -50%); */
+    height: 100%;
+    width: 20px;
+    background-color: rgb(221, 208, 32);
+
+    /* background-color: rgba(105, 105, 105, 0.523); */
+    font-size: 30px;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+#aright{
+    position: relative;
+    /* top: 50%; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* transform: translate(-50%, -50%); */
+    height: 100%;
+    width: 20px;
+    font-size: 30px;
+    background-color: rgb(221, 208, 32);
+
+    /* background-color: rgba(198, 241, 7, 0.559); */
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+
+
+
+}
+/* #arrow>i{
+    position: relative;
+    top: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transform: translate(-50%, -50%);
+} */
